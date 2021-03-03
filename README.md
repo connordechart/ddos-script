@@ -5,7 +5,8 @@ Written in python 3.9.
 
 Requirements:
  - ``pip install colorama``
- Usage:
+ 
+Usage:
  - script.py [IP] [FAKEIP] [PORT] [THREADS]
  
 Does it work? Yes.
