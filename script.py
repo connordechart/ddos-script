@@ -42,13 +42,9 @@ except Exception:
     """)
     exit(-1)
 
-amount = 0
-retries = 5
+amount,retries = 0, 5
+#THIS DUMB LIBRARY WON'T WORK WITHOUT THIS!!!!!!
 colorama.init(convert=True)
-
-
-if threads == 69 or threads == 69420:
-    print(color + 'N' + color + 'I' + color + 'C' + color + 'E')
 
 sleep(3)
 
