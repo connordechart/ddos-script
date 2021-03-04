@@ -36,7 +36,7 @@ except Exception:
     WRONG USAGE.
     
     MODEL: dos_script.py target_ip fake_ip port threads
-    EXAMPLE: dos_script.py 10.0.0.1 83.12.232.23 8 10
+    EXAMPLE: dos_script.py 10.0.0.1 83.12.232.23 80 10
     """)
     exit(-1)
 
